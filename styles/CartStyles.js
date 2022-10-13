@@ -13,7 +13,7 @@ export const CartWrapper = styled(motion.div)`
   display: flex;
   justify-content: flex-end;
   @media all and (max-width:500px) {
-      width: 340%;
+      width: 260%;
       margin-right:1rem;
     }
     
@@ -25,6 +25,11 @@ export const CartStyle = styled(motion.div)`
   padding: 2rem 5rem;
   overflow-y: scroll;
   position: relative;
+  @media all and (max-width:500px) {
+    
+    padding-left: 25px; 
+    overflow-y:hidden; 
+    }
 `;
 
 export const Card = styled(motion.div)`
@@ -38,8 +43,16 @@ export const Card = styled(motion.div)`
   margin: 2rem 0rem;
 
   img {
-    width: 8rem;
+    width: 7rem;
   }
+  @media all and (max-width:500px) {
+      img{
+        width:4rem;
+        border-radius: 3rem;
+        margin: 1rem -1rem;
+      } 
+      /* overflow-y:none; */
+    }
 `;
 
 export const CardInfo = styled(motion.div)`
@@ -48,6 +61,10 @@ export const CardInfo = styled(motion.div)`
     display: flex;
     justify-content: space-between;
   }
+   @media all and (max-width:500px) {
+    padding-right: 6rem; 
+      /* overflow-y:none; */
+    }
 `;
 
 export const EmptyStyle = styled(motion.div)`

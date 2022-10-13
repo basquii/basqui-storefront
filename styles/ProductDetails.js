@@ -9,8 +9,9 @@ export const DetailsStyle = styled.div`
   }
    @media all and (max-width:500px) {
     img {
-      width: 100%;
-      margin-right:4rem;
+      width:80%;
+      margin-right: 60px;
+      
     }
   }
 `;
@@ -35,7 +36,7 @@ export const Quantity = styled.div`
   align-items: center;
   margin: 1rem 0rem;
   @media all and (max-width:500px) {
-     font-weight: bold;
+     /* font-weight: bold; */
   }
 
 
