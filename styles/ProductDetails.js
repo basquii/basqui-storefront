@@ -7,6 +7,12 @@ export const DetailsStyle = styled.div`
   img {
     width: 40%;
   }
+   @media all and (max-width:500px) {
+    img {
+      width: 100%;
+      margin-right:4rem;
+    }
+  }
 `;
 
 export const ProductInfo = styled.div`
@@ -17,12 +23,21 @@ export const ProductInfo = styled.div`
     padding: 0.5rem 1rem;
     cursor: pointer;
   }
+  @media all and (max-width:500px) {
+     font-size: 1rem;
+     font-weight: bold;
+  }
+
 `;
 
 export const Quantity = styled.div`
   display: flex;
   align-items: center;
   margin: 1rem 0rem;
+  @media all and (max-width:500px) {
+     font-weight: bold;
+  }
+
 
   button {
     background: transparent;
