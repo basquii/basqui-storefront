@@ -59,6 +59,12 @@ export const CardInfo = styled(motion.div)`
     display: flex;
     justify-content: space-between;
   }
+  @media all and (max-width:500px) {
+      div{
+        padding-right: 1rem;
+        margin: 1rem -2rem;
+      }
+    }
 `;
 
 export const EmptyStyle = styled(motion.div)`
