@@ -7,9 +7,11 @@ export const DetailsStyle = styled.div`
   img {
     width: 40%;
   }
-   @media all and (max-width:500px) {
+  @media all and (max-width:500px) {
     img {
-      height:10rem;
+     height:11rem;
+     width:50%;
+     margin-right:1rem;
     }
   }
 `;
@@ -23,8 +25,8 @@ export const ProductInfo = styled.div`
     cursor: pointer;
   }
   @media all and (max-width:500px) {
-     font-size: 0.7rem;
-     padding-right:0.2rem;
+     font-size: 1rem;
+     /* padding-right:0.2rem; */
      margin-right: 2rem;
   }
 
