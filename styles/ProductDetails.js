@@ -10,7 +10,6 @@ export const DetailsStyle = styled.div`
   @media all and (max-width:500px) {
     img {
      height:11rem;
-     width:50%;
      margin-right:1rem;
     }
   }
