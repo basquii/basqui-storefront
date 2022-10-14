@@ -40,15 +40,14 @@ export const Card = styled(motion.div)`
   background: white;
   padding: 2rem;
   margin: 2rem 0rem;
-
   img {
-    width: 7rem;
+    width: 8rem;
   }
   @media all and (max-width:500px) {
       img{
+        margin-bottom:3rem;
         width:4rem;
         border-radius: 3rem;
-        margin: 1rem -1rem;
       } 
     }
 `;

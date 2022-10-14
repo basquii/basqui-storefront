@@ -9,7 +9,7 @@ export const DetailsStyle = styled.div`
   }
    @media all and (max-width:500px) {
     img {
-      height:8rem;
+      height:10rem;
     }
   }
 `;
