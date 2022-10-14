@@ -9,9 +9,7 @@ export const DetailsStyle = styled.div`
   }
    @media all and (max-width:500px) {
     img {
-      width:80%;
-      margin-right: 60px;
-      
+      width:40%;
     }
   }
 `;
@@ -25,8 +23,9 @@ export const ProductInfo = styled.div`
     cursor: pointer;
   }
   @media all and (max-width:500px) {
-     font-size: 1rem;
-     font-weight: bold;
+     font-size: 0.7rem;
+     padding-right:0.2rem;
+     margin-right: 2rem;
   }
 
 `;
@@ -35,11 +34,6 @@ export const Quantity = styled.div`
   display: flex;
   align-items: center;
   margin: 1rem 0rem;
-  @media all and (max-width:500px) {
-     /* font-weight: bold; */
-  }
-
-
   button {
     background: transparent;
     border: none;
